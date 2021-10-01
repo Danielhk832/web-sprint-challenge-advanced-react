@@ -95,7 +95,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
    how state is defined and changed.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
-
+   component will mount is called immediately before mounting, and componentwillupdate is called before render
 3. Define stateful logic.
+   any code that uses state
 
 4. What are the three step of creating a successful test? What is done in each phase?
+   Arrange: renders elemetns to vDOM
+   Act: queries the DOM
+   Assert: test whether queries are actually rendered to DOM
